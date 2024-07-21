@@ -61,8 +61,8 @@ def convert_and_move_jpg_to_pdf(source_folder, moved_jpg_folder, log_file):
         image.close()
 
 if __name__ == "__main__":
-    source_folder = "/Users/egorlevites/Desktop/Renium/jpeg_main_files"  # Specify the path to the folder with JPG files
-    moved_jpg_folder = "/Users/egorlevites/Desktop/Renium/converted_jpeg"  # Specify the path to the folder for moving JPG files
-    log_file = "/Users/egorlevites/Desktop/Renium/converted_jpeg/list.txt"  # Specify the path to the log file
+    source_folder = "jpeg_main_files"  # Specify the path to the folder with JPG files
+    moved_jpg_folder = "converted_jpeg"  # Specify the path to the folder for moving JPG files
+    log_file = "list.txt"  # Specify the path to the log file
     
     convert_and_move_jpg_to_pdf(source_folder, moved_jpg_folder, log_file)
